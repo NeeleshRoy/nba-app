@@ -8,5 +8,3 @@ cache:
     - node_modules
 script:
 - npm run build
-after_success:
-- .travis/push.sh
